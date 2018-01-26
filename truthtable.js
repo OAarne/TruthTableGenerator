@@ -82,9 +82,9 @@ function latexchar(c,tv) {
 					case 'tf': return 'F';
 					case 'oz': return '0';
 			}
-		case '~' : return '$\\sim$';
-		case '&' : return '$\\&$';
-		case 'v' : return '$\\lor$';
+		case '~' : return '$\\neg$';
+		case '&' : return '$\\wedge$';
+		case 'v' : return '$\\vee$';
 		case '>' : return '$\\rightarrow$';
 		case '<>' : return '$\\leftrightarrow$';
 		case '|' : return '$|$';
